@@ -1,0 +1,17 @@
+# Hasil build Arduino
+build/
+*.o
+*.elf
+*.bin
+*.hex
+
+# Kredensial Wi-Fi (jangan di-commit)
+# .env.example tetap di-commit sebagai contoh
+.env
+secrets.h
+
+# Editor / OS
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
